@@ -52,7 +52,7 @@ current: 2015-05-25 09:48:16.414099205 +0900 JST
 
 ## Difference between go-timecop and [timecop](https://github.com/travisjeffery/timecop).
 
-Ruby can integrated with "time module" using metaprogramming, but it is not possible to do same behavior using golang.
+Ruby can be integrated with "time module" using metaprogramming, but the same behavior is not possible using golang.
 
 Therefore, it is necessary to replace the `time.Now` and` time.Since` with function `timecop.Now` and` timecop.Since` which is provided by this library.
 
